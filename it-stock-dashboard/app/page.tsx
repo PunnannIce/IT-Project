@@ -168,6 +168,9 @@ export default function Home() {
           </div>
         </section>
       </div>
+      <div className="mx-auto mt-8 max-w-7xl text-right text-sm text-red-500 dark:text-red-400">
+        <p>this table contains demo data only</p>
+      </div>
     </main>
   );
 }

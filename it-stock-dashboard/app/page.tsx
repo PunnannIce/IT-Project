@@ -12,6 +12,7 @@ type Device = {
   assetTag: string;
   category: string;
   assignee: string;
+  userid?: string;
   status: DeviceStatus;
 };
 
@@ -21,6 +22,7 @@ const devices: Device[] = [
     assetTag: "IT-0142",
     category: "Laptop",
     assignee: "Nicha S.",
+    userid: "user099",
     status: "Assigned",
   },
   {
@@ -28,12 +30,14 @@ const devices: Device[] = [
     assetTag: "IT-0139",
     category: "Monitor",
     assignee: "Available",
+    userid: " ",
     status: "Available",
   },
   {
     name: "ThinkPad X1 Carbon",
     assetTag: "IT-0136",
     category: "Laptop",
+    userid: "user075",
     assignee: "Preecha K.",
     status: "Maintenance",
   },
@@ -41,6 +45,7 @@ const devices: Device[] = [
     name: "Logitech MX Master 3S",
     assetTag: "IT-0133",
     category: "Accessory",
+    userid: " ",
     assignee: "Available",
     status: "Available",
   },

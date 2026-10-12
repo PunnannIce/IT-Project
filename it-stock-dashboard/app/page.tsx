@@ -123,6 +123,9 @@ export default function Home() {
                     Category
                   </th>
                   <th className="px-5 py-3 font-medium" scope="col">
+                    User ID
+                  </th>
+                  <th className="px-5 py-3 font-medium" scope="col">
                     Assigned to
                   </th>
                   <th className="px-5 py-3 font-medium" scope="col">
@@ -144,6 +147,9 @@ export default function Home() {
                     </th>
                     <td className="px-5 py-4 text-zinc-600 dark:text-zinc-300">
                       {device.category}
+                    </td>
+                    <td className="px-5 py-4 text-zinc-600 dark:text-zinc-300">
+                      {device.userid}
                     </td>
                     <td className="px-5 py-4 text-zinc-600 dark:text-zinc-300">
                       {device.assignee}
